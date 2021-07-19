@@ -116,6 +116,7 @@ aside .aside_wrapper h1{
 }
 aside .aside_wrapper p{
     color: white;
+    font-size: 1.15em;
     line-height: 1.4em;
 }
 .sign_up_button{
@@ -136,4 +137,48 @@ aside .aside_wrapper p{
 }
 .sign_up_button p a:hover{
     text-decoration: underline;
+}
+/* background shapes */
+.ellipse_four{
+    position: absolute;
+    bottom: 250px;
+    right: 360px;
+}
+.polygon_one{
+    position: absolute;
+    bottom: 440px;
+    left: 1070px;
+}
+.polygon_two{
+    position:absolute;
+    right:60px;
+    bottom: 5px;
+}
+.rectangle_six{
+    position: absolute;
+    bottom: 320px;
+    right: 40px;
+}
+.rectangle_nine{
+ position: absolute;
+ bottom: 340px;
+ right: 330px;
+}
+.ellipse_five{
+    position: absolute;
+    bottom: -150px;
+    left: -110px;
+}
+.polygon_three{
+    position: absolute;
+    top:-30px;
+}
+.rectangle_seven{
+    position: absolute;
+    top: 100px;
+}
+.rectangle_eigtht{
+    position: absolute;
+    top:500px;
+    left: 300px;
 }
