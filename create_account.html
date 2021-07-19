@@ -4,39 +4,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Create Account</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <main>
+    <main id="main_create_account"> 
         <!--Aside-->
         <aside>
             <div class="logo">
-                <img src="img/white_logo.png" alt="Diprella Logo">
+                <img src="img/white_logo.png" alt="Diprella Logo">     
             </div>
-            <h1>Welcome back!</h1>
-            <p>To keep connected with us please login with your personal info</p>
-            <div class="sign_in_button"> 
-                <p><a href="sign_up.html">sign in</a></p>
-            </div>
+            <div class="aside_wrapper">
+                <h1>Welcome Back!</h1>
+                <p>To keep connected with us please<br> login with your personal info</p>
+                <div class="sign_up_button"> 
+                    <p><a href="sign_up.html">sign in</a></p>
+                </div>
+            <div class="aside_wrapper">
         </aside>
         <!--Aside-->
 
         <!--Section-->
-        <section>
+        <section id="create_account_section">
             <div class="container">
-                <h1>Create Account</h1>
+                 <h1>Create Account</h1>
                 <div class="social_icons">
-                    <!--  social media icons should be put here -->
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-google-plus"></a>
+                    <a href="#" class="fa fa-linkedin"></a> 
                 </div>
-                <p>or use email for registration</p>
+                <div class="email_account">
+                    <p>or use your email for registration</p>
+                </div>
                 <form action="get" method="get">
                     <input type="text" class="text" name="text" placeholder="Name" >
                     <input type="email" class="email" name="email" placeholder="Email">
                     <input type="password" class="password" name="password" placeholder="Password">
                 </form>
                 <!-- You should link the button below to its page -->
-                <div class="sign_up_button"> 
+                 <div class="sign_in_button"> 
                     <p><a href="#">sign up</a></p>
-                </div>
+                 </div>
             </div>
         </section>
         <!--Section--> 
